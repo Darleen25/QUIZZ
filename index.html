@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+  <html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz sur Optima TT</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>Quiz sur Optima TT</h1>
+
+    <form id="quiz-form">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" required>
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" required>
+
+      <label for="profession">Profession :</label>
+      <input type="text" id="profession" required>
+
+      <div class="answer">
+        <p>1. Optima TT est une agence de recrutement en intérim dans le domaine informatique.</p>
+        <label for="q1-oui"><input type="radio" name="q1" id="q1-oui" value="oui"> Oui</label>
+        <label for="q1-non"><input type="radio" name="q1" id="q1-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>2. Optima TT recrute des personnes dans le domaine informatique partout en France.</p>
+        <label for="q2-oui"><input type="radio" name="q2" id="q2-oui" value="oui"> Oui</label>
+        <label for="q2-non"><input type="radio" name="q2" id="q2-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>3. Optima TT a été fondée en 2012.</p>
+        <label for="q3-oui"><input type="radio" name="q3" id="q3-oui" value="oui"> Oui</label>
+        <label for="q3-non"><input type="radio" name="q3" id="q3-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>4. Optima TT permet de recruter différentes personnes dans le domaine informatique.</p>
+        <label for="q4-oui"><input type="radio" name="q4" id="q4-oui" value="oui"> Oui</label>
+        <label for="q4-non"><input type="radio" name="q4" id="q4-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>5. Optima TT ne recrute que des développeurs informatiques.</p>
+        <label for="q5-oui"><input type="radio" name="q5" id="q5-oui" value="oui"> Oui</label>
+        <label for="q5-non"><input type="radio" name="q5" id="q5-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>6. Optima TT permet de recruter des personnes en intérim.</p>
+        <label for="q6-oui"><input type="radio" name="q6" id="q6-oui" value="oui"> Oui</label>
+        <label for="q6-non"><input type="radio" name="q6" id="q6-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>7. Optima TT est une entreprise spécialisée dans le recrutement informatique.</p>
+        <label for="q7-oui"><input type="radio" name="q7" id="q7-oui" value="oui"> Oui</label>
+        <label for="q7-non"><input type="radio" name="q7" id="q7-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>8. Optima TT ne permet pas de recruter des personnes pour des postes en CDD.</p>
+        <label for="q8-oui"><input type="radio" name="q8" id="q8-oui" value="oui"> Oui</label>
+        <label for="q8-non"><input type="radio" name="q8" id="q8-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>9. Optima TT ne recrute pas de personnes pour des postes en CDI.</p>
+        <label for="q9-oui"><input type="radio" name="q9" id="q9-oui" value="oui"> Oui</label>
+        <label for="q9-non"><input type="radio" name="q9" id="q9-non" value="non"> Non</label>
+      </div>
+
+      <div class="answer">
+        <p>10. Optima TT permet de recruter des personnes pour des postes en télétravail.</p>
+        <label for="q10-oui"><input type="radio" name="q10" id="q10-oui" value="oui"> Oui</label>
+        <label for="q10-non"><input type="radio" name="q10" id="q10-non" value="non"> Non</label>
+      </div>
+
+      <button type="submit">Soumettre</button>
+    </form>
+
+    <div id="results" class="aa"></div>
+
+    <script src="script.js"></script>
+    
+  </body>
+
+  </html>
